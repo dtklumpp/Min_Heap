@@ -113,37 +113,41 @@ class MinHeap {
     }
 }
 
-function log(x){
-    console.log(x);
-}
 
-let heap = new MinHeap();
-let out = [];
+//testing code 
 
-heap.push(5);
-heap.push(6);
+// function log(x){
+//     console.log(x);
+// }
 
-log(heap.peek())
-log(heap.length)
-log(heap.root.left.val)
-log(heap.root.right)
+// let heap = new MinHeap();
+// let out = [];
 
-heap.push(4);
+// heap.push(5);
+// heap.push(6);
 
-log(heap.peek())
+// log(heap.peek())
+// log(heap.length)
+// log(heap.root.left.val)
+// log(heap.root.right)
 
-heap.pop();
-log(heap.peek())
+// heap.push(4);
 
-heap.push(2);
-heap.push(3);
-heap.push(1);
-log(heap.peek())
-log(heap.length)
+// log(heap.peek())
 
-heap.pop();
-log(heap.peek())
-log(heap.length)
+// heap.pop();
+// log(heap.peek())
+
+// heap.push(2);
+// heap.push(3);
+// heap.push(1);
+// log(heap.peek())
+// log(heap.length)
+
+// heap.pop();
+// log(heap.peek())
+// log(heap.length)
+
 
 //should all output
 //5
